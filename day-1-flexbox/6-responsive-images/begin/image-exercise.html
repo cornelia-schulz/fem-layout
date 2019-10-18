@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+		// Picture element HML5
+		document.createElement("picture")
+	</script>
+	<script src="picturefill.min.js."></script>
+</head>
+<body>
+	<!-- visit http://scottjehl.github.io/picturefill/ for picturefill source -->
+	<div class="bkgdimg"></div>
+	<picture>
+		<source srcset="img/peace-pie-original.jpg" media="(min-width: 1200px)" />
+		<source srcset="img/peace-pie-500.jpg" media="(min-width: 800px)" />
+		<img src="img/peace-pie-150.jpg" alt="Amazing peace pie at appropriate dimensions">
+	</picture>
+</body>
+</html>
