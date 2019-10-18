@@ -153,6 +153,22 @@ footer a {
   flex-direction: row-reverse;
 }
 
+.gallery {
+  margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.gallery li {
+	flex: auto;
+}
+
+.gallery img {
+	width: 100%;
+}
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 550px) { 
   .wrapper {
